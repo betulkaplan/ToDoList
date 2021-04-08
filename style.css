@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list-container {
+  width: 500px;
+  margin: auto;
+  background-color: #fdcb6e;
+  box-shadow: 10px 10px 10px #6c5ce7;
+  padding: 10px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+}
+
+#task-description {
+  flex: 3;
+}
+#add-task {
+  flex: 1;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-line-template {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dfe6e9;
+  margin: 3px;
+}
